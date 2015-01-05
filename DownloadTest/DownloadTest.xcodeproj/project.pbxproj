@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E759F651911151E001AA3D5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E759F611911151E001AA3D5 /* CFNetwork.framework */; };
-		4E759F661911151E001AA3D5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E759F621911151E001AA3D5 /* SystemConfiguration.framework */; };
-		4E759F671911151E001AA3D5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E759F631911151E001AA3D5 /* MobileCoreServices.framework */; };
 		4EB0A21E1910B9C00039FA4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB0A21D1910B9C00039FA4C /* Foundation.framework */; };
 		4EB0A2201910B9C00039FA4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB0A21F1910B9C00039FA4C /* CoreGraphics.framework */; };
 		4EB0A2221910B9C00039FA4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB0A2211910B9C00039FA4C /* UIKit.framework */; };
@@ -19,6 +16,10 @@
 		4EB0A2301910B9C10039FA4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB0A22F1910B9C10039FA4C /* Images.xcassets */; };
 		4EF9F95D192F1F3B005DE45B /* libDownloadLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDAA2381915CA5900E15B83 /* libDownloadLib.a */; };
 		4EF9F960192F1F73005DE45B /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDAA23E1916185400E15B83 /* libz.1.2.5.dylib */; };
+		4EFC93AD1A4805220020EFE9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFC93AC1A4805220020EFE9 /* CFNetwork.framework */; };
+		4EFC93AF1A4805270020EFE9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFC93AE1A4805270020EFE9 /* MobileCoreServices.framework */; };
+		4EFC93B11A48052E0020EFE9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFC93B01A48052E0020EFE9 /* SystemConfiguration.framework */; };
+		4EFC93B51A4806EB0020EFE9 /* libDLLHTTPUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFC93B41A4806EB0020EFE9 /* libDLLHTTPUtil.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4E1A2B48199DD5C400B0FB3A /* libDLLHTTPUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDLLHTTPUtil.a; path = "../DLLHTTPUtil/build/Debug-iphoneos/libDLLHTTPUtil.a"; sourceTree = "<group>"; };
-		4E1A2B4A199DD71A00B0FB3A /* libDLLHTTPUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDLLHTTPUtil.a; path = "../DLLHTTPUtil/build/Debug-iphoneos/libDLLHTTPUtil.a"; sourceTree = "<group>"; };
-		4E759F611911151E001AA3D5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = "<absolute>"; };
-		4E759F621911151E001AA3D5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
-		4E759F631911151E001AA3D5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = "<absolute>"; };
 		4EB0A21A1910B9C00039FA4C /* DownloadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB0A21D1910B9C00039FA4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4EB0A21F1910B9C00039FA4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,7 +53,10 @@
 		4EB0A22F1910B9C10039FA4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4EDAA2331915CA5900E15B83 /* DownloadLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DownloadLib.xcodeproj; path = ../DownloadLib/DownloadLib.xcodeproj; sourceTree = "<group>"; };
 		4EDAA23E1916185400E15B83 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
-		4EF9F95E192F1F41005DE45B /* libHttpUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHttpUtil.a; path = "../../../Library/Developer/Xcode/DerivedData/DownloadTest-eywvpbfernzjigdxxnoovirtidus/Build/Products/Debug-iphoneos/libHttpUtil.a"; sourceTree = "<group>"; };
+		4EFC93AC1A4805220020EFE9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4EFC93AE1A4805270020EFE9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4EFC93B01A48052E0020EFE9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4EFC93B41A4806EB0020EFE9 /* libDLLHTTPUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDLLHTTPUtil.a; path = "../DLLHTTPUtil/build/Debug-iphoneos/libDLLHTTPUtil.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,14 +64,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EFC93B51A4806EB0020EFE9 /* libDLLHTTPUtil.a in Frameworks */,
+				4EFC93B11A48052E0020EFE9 /* SystemConfiguration.framework in Frameworks */,
+				4EFC93AF1A4805270020EFE9 /* MobileCoreServices.framework in Frameworks */,
+				4EFC93AD1A4805220020EFE9 /* CFNetwork.framework in Frameworks */,
 				4EF9F960192F1F73005DE45B /* libz.1.2.5.dylib in Frameworks */,
 				4EF9F95D192F1F3B005DE45B /* libDownloadLib.a in Frameworks */,
-				4E759F671911151E001AA3D5 /* MobileCoreServices.framework in Frameworks */,
 				4EB0A2201910B9C00039FA4C /* CoreGraphics.framework in Frameworks */,
 				4EB0A2221910B9C00039FA4C /* UIKit.framework in Frameworks */,
 				4EB0A21E1910B9C00039FA4C /* Foundation.framework in Frameworks */,
-				4E759F661911151E001AA3D5 /* SystemConfiguration.framework in Frameworks */,
-				4E759F651911151E001AA3D5 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,13 +100,11 @@
 		4EB0A21C1910B9C00039FA4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E1A2B4A199DD71A00B0FB3A /* libDLLHTTPUtil.a */,
-				4E1A2B48199DD5C400B0FB3A /* libDLLHTTPUtil.a */,
-				4EF9F95E192F1F41005DE45B /* libHttpUtil.a */,
+				4EFC93B41A4806EB0020EFE9 /* libDLLHTTPUtil.a */,
+				4EFC93B01A48052E0020EFE9 /* SystemConfiguration.framework */,
+				4EFC93AE1A4805270020EFE9 /* MobileCoreServices.framework */,
+				4EFC93AC1A4805220020EFE9 /* CFNetwork.framework */,
 				4EDAA23E1916185400E15B83 /* libz.1.2.5.dylib */,
-				4E759F611911151E001AA3D5 /* CFNetwork.framework */,
-				4E759F621911151E001AA3D5 /* SystemConfiguration.framework */,
-				4E759F631911151E001AA3D5 /* MobileCoreServices.framework */,
 				4EB0A21D1910B9C00039FA4C /* Foundation.framework */,
 				4EB0A21F1910B9C00039FA4C /* CoreGraphics.framework */,
 				4EB0A2211910B9C00039FA4C /* UIKit.framework */,
@@ -340,7 +338,10 @@
 				GCC_PREFIX_HEADER = "Test/DownloadTest-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Test/DownloadTest-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/DLL/Code/离线下载+断点续传/iOS/DLLHTTPUtil/build/Debug-iphoneos",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = DownloadTest;
 				PROVISIONING_PROFILE = "";
@@ -362,7 +363,10 @@
 				GCC_PREFIX_HEADER = "Test/DownloadTest-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Test/DownloadTest-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/DLL/Code/离线下载+断点续传/iOS/DLLHTTPUtil/build/Debug-iphoneos",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = DownloadTest;
 				PROVISIONING_PROFILE = "";
