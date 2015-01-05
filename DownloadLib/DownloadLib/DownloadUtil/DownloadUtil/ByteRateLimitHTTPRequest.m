@@ -149,6 +149,13 @@
     }
 }
 
+- (void)startSynchronous
+{
+    [self retain];
+    [super startSynchronous];
+    [self retain];
+}
+
 - (void)performThrottling
 {
 
